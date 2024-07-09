@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://syedsaadsharief:Saad1234.@cluster0.ovkea9k.mongodb.net/paytmdb')
+mongoose.connect('Enter your mongodb cluster url')
 const userSchema = new mongoose.Schema({
     username: {
         type: String,
